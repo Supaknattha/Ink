@@ -1,0 +1,27 @@
+body {
+	background-color: lightpink
+}
+
+h1 {text-align: center;
+color: red;}
+p{text-align: center;}
+p{background-color: #F7F7EF}
+fieldset {
+	background-color: #F9E3F6;
+	color: #B7248D;
+	display: inline-block;
+	float: left;
+	border: 15px;
+	margin-top:15px;
+	font-size: 38;
+}
+
+footer {
+	text-align: center;
+	color: red;
+	float: auto
+	margin-top:25px;
+margin-bottom: 25px
+
+}
+ol {float: left;}

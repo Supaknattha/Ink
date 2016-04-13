@@ -1,0 +1,21 @@
+body {
+  background: lightpink;
+}
+header {
+	background-color: lightpink;
+	color: red;
+	height: 50px;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+h1 {
+	text-align: center;
+}
+footer {
+	background-color: lightpink;
+	color: red;
+	height: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}

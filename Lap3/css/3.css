@@ -1,0 +1,30 @@
+body {
+  background: lightpink;
+}
+header {
+	background-color: lightpink;
+	color: red;
+	height: 50px;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+h1 {
+	text-align: center;
+}
+footer {
+	background-color: lightpink;
+	color: red;
+	text-align: center;
+	height: 50px;
+	margin-top: 150px;
+	margin-bottom: 25px;
+}
+fieldset {
+	width: 250px;
+	margin-left: 550px;
+	margin-top: 50px;
+	background-color: lightpink;
+}
+a {
+	margin-left: 570px;
+}

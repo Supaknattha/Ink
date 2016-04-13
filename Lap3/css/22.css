@@ -1,0 +1,76 @@
+body {
+  background: lightpink;
+}
+header {
+  background-color:#F7F7EF;
+  color: orange;
+}
+input {
+    width: 100px;
+}
+.red {
+  width: 80px;
+  height: 100px;
+  margin-left: 100px;
+}
+table {
+   width: 80%;
+   background-color: #F7F7EF;
+  margin-left: 140px;
+}
+th {
+  text-transform: uppercase;
+}
+td {
+  text-align: center;
+}
+tr {
+ margin-left: 200px;
+}
+.hej {
+color: black;
+width: 60px;
+height: 80px;
+position: relative;
+}
+#border2 {
+    margin-left: 300px;
+}
+table, td, th, tr { 
+  height: 50px;
+  border: 1px black;
+  background-color: lightpink;  
+}
+fieldset {
+   background-color: lightpink;
+   width: 220px;
+   margin-left: 550px;
+}
+p {
+margin-left: 40px;
+}
+#Villkor {
+margin-left: 20px;
+}
+footer {
+	text-align: center;
+	color: red;
+	height: 130px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+h1 {
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+}
+header {
+	background-color: #F7F7EF;
+	color: black;
+	height: 50px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+
+
+
