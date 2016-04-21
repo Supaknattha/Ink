@@ -1,0 +1,277 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+<!--This is my CSS file -->
+<link rel="stylesheet" href="layout.css">
+	<title>Semesterresor</title>
+</head>
+<body>
+<h1>
+<div class="container">
+	<div class="row">
+  <div class="col-xs-12 col-sm-12">
+		
+  		<a href="första.html"><img src="lap4bild/logo.png" width="700" height="200"></a>
+  		<a href="första.html"><p class="text-right"><button type="button" class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-user"></span>Registera dig</button></a>
+      <a href="loggain.html"><button type="button" class="btn btn-default navbar-btn">Logga in</button></a><br>
+  		<a href="första.html"><button type="button" class="btn btn-default navbar-btn">Min resa</button></a>
+  		<a href="kundvagn.html"><button type="button" class="btn btn-default navbar-btn">Kundvagn</button></a>
+  		<a href="första.html"><button type="button" class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-globe"></span> Språk</button></a>
+  		<p><span><input placeholder="Sök" /> <span class="glyphicon glyphicon-search"></span>
+        </button></p>
+  		</div>
+  		</div>
+      </div>
+  	</h1>	
+      <div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <a href="första.html"></a><button type="button" class="btn btn-default">HEM</button></a>
+  </div>
+   <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      ERBJUDANDE
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="första.html">Sista minut</a></li>
+      <li><a href="första.html">Paket pris</a></li>
+    </ul>
+  </div>
+  <div class="btn-group" role="group">
+    <a href="första.html"><button type="button" class="btn btn-default">BOKA FLYG</button></a>
+  </div>
+  <div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <a href="bokahotel.html"><button type="button" class="btn btn-default">BOKA HOTEL</button></a>
+  </div>
+  <div class="btn-group" role="group">
+    <a href="omoss.html"><button type="button" class="btn btn-default">OM OSS</button></a>
+  </div>
+  <div class="btn-group" role="group">
+    <a href="flygbolag.html"><button type="button" class="btn btn-default">FLYGBOLAG</button></a>
+  </div>
+</div>
+
+</div>
+<article>
+<div class="container">
+<div class="row">
+	<div class="col-xs-4 col-sm-4">
+	<input type="radio" name="Tur/Retur"> Tur/Retur
+	<input type="radio" name="enkel"> Enkel<br>
+Från
+	<textarea name="Från id="från" cols="20" rows="1" "></textarea><br>
+	Till
+	<textarea name="Till id="till" cols="20" rows="1" "></textarea><br>
+	<input type="checkbox" name="direktflyg"> Endast direktflyg <br>
+	<select name="Class" id="class">
+	<option>Economy class</option>
+	<option>Premium class</option>
+	<option>Business class</option>
+	<option>First class</option>
+	</select>	
+	</div>
+	<div class="col-xs-4 col-sm-4">
+	Avresa
+	<div class="form-group">
+            <div class='input-group date' id='datetimepicker11'>
+                <input type='date' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar">
+                    </span>
+                </span>
+            </div>
+        </div>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker11').datetimepicker({
+                daysOfWeekDisabled: [0, 6]
+            });
+        });
+    </script>
+    Hemresa
+<div class="form-group">
+            <div class='input-group date' id='datetimepicker11'>
+                <input type='date' class="form-control" />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar">
+                    </span>
+                </span>
+            </div>
+        </div>
+ 
+    <script type="text/javascript">
+        $(function () {
+            $('#datetimepicker11').datetimepicker({
+                daysOfWeekDisabled: [0, 6]
+            });
+        });
+    </script>
+
+
+<select name="Flygbolag">
+<option>Flygbolag</option>
+<option>Alla</option>
+<option>Aeromexico</option>
+<option>Airberlin</option>
+<option>Austrian</option>
+<option>Croatia Airline</option>
+<option>Garuda Indonesia</option>
+<option>Polish Airlines</option>
+<option>Turkish Airline</option>
+<option>Air New Zealand</option>
+<option>Avianca</option>
+<option>Brussels Airline</option>
+<option>Delta</option>
+<option>Dragonair</option>
+<option>Hawaiian</option>
+<option>Korean Air</option>
+<option>Lufthansa</option>
+<option>Midwese Airline</option>
+<option>Singapore Airline</option>
+<option>Soutwest Airline</option>
+<option>Swissair</option>
+<option>Vietnam Airlines</option>
+<option>AirTran</option>
+<option>Alitalia</option>
+<option>British Airways</option>
+<option>Cathay Pacific</option>
+<option>Continental Airlines</option>
+<option>Ethiopian</option>
+<option>Iberia</option>
+<option>Malaysia</option>
+<option>South African Airways</option>
+<option>Thai Airways</option>
+<option>Airfrance</option>
+<option>Air Philippines</option>
+<option>Aircanada</option>
+<option>Icelandair</option>
+<option>Royal Ducth Airline</option>
+<option>Srilankan Airlines</option>
+</select>
+
+</div>
+<div class="col-xs-4 col-sm-4">
+Resnärer
+<div class="input-group">
+  <input type="number" class="form-control" placeholder="Antal vuxen" aria-describedby="sizing-addon3">
+  <input type="number" class="form-control" placeholder="Antal barn (0-17 år)" aria-describedby="sizing-addon3">
+<a href="produktsida.html"><input type="submit" value="SÖKRESOR"></a>
+</div>
+	</div>
+  </div>
+</div>
+  </article>
+  <article>
+<div class="container">
+<div class="row">
+  <div class="col-xs-2 col-sm-2">
+    <h3><a href="första.html">5 Populära städer</a></h3>
+    <a href="första.html">New York          3299:-</a><br>
+    <a href="första.html">Phuket            7999:-</a><br>
+    <a href="första.html">Rom               4289:-</a><br>
+    <a href="första.html">Barcelona         1340:-</a><br>
+    <a href="första.html">London            1289:-</a><br>
+
+  </div>
+  <div class="col-sx-2 col-sm-2">
+  <h3><a href="första.html">Lägsta flygpris just nu!</a></h3>
+    <ol><small>från Stockholm</small></ol>
+    <a href="första.html">Göteborg          799:-</a><br>
+    <a href="första.html">Köpenhamn         999:-</a><br>
+    <a href="första.html">Bangkok           3700:-</a><br>
+    <a href="första.html">Paris             1309:-</a><br>
+    <a href="första.html">Malaga            1528:-</a><br>
+
+  </div>
+  <div class="col-sx-2 col-sm-2">
+  <h3><a href="första.html">Bästa flyg+hotell pris</a></h3>
+  <a href="första.html">Dubai               5799:-</a>  <br>
+  <a href="första.html">Palma de Mallorca   4799:-</a><br>
+  <a href="första.html">Krakow              2090:-</a><br>
+  <a href="första.html">Paris               1967:-</a><br>
+  <a href="första.html">Prag                1599:-</a><br>
+  </div>
+<aside>
+		<div class="col-xs-6 col-sm-6">
+		<a href="paketpris.html"><p class="img-left"><img src="lap4bild/reklam1.png" class="img-responsive" alt="Responsive image">
+		</p></a></div>
+	</div>
+	</div>
+    
+  </div>
+    
+</aside>
+</article>
+<!--End of Website Main Content -->
+<footer class="site-footer">
+<div class="container">
+  <div class="row">
+  <div class="col-xs-4 col-sm-4">
+<p class="img-center"><img src="lap4bild/2.png" class="img-responsive" alt="Responsive image">
+    
+  </div> 
+   <div class="col-xs-4 col-sm-4">
+<p class="img-center"><img src="lap4bild/3.png" class="img-responsive" alt="Responsive image">
+    
+  </div> 
+  <div class="col-xs-4 col-sm-4">
+<p class="img-center"><img src="lap4bild/4.png" class="img-responsive" alt="Responsive image">
+    </div> 
+    </div>
+  <div class="container">
+  <div class="row">
+  <div class="col-xs-4 col-sm-4">
+  <a href="första.html">Om oss</a><br>
+  <a href="första.html">Nyhetsbrev</a><br>
+  <a href="första.html">Vi använder cookies</a><br>
+  <a href="första.html">Samarbetetsparner</a><br>
+  <a href="första.html">Jobba hos oss</a><br>
+  <a href="första.html">Frågor och svar</a><br>
+    
+  </div>
+
+   <div class="col-xs-4 col-sm-4">
+  Kundtjänst<br>
+  Tel (08-17) 033-274029<br>
+  Addres Döbelnsgatan 6<br>
+  506 36 Borås<br>
+   </div>
+
+  <div class="col-xs-4 col-sm-4">
+  <a href="första.html"><img src="lap4bild/soci2.jpg" class="img-responsive"></a>
+  
+</div>
+  </div>
+  </div>
+ 
+  </div> 
+  <div class="container">
+  <div class="row">
+  <div class="col-xs-2 col-sm-2"></div>
+  <div class="col-xs-10 col-sm-10">
+  <img src="lap4bild/betalssätt.png" width="1500" height="90">
+
+  </div>
+  </div>
+  </div>
+  
+  
+</footer>
+<!--End of the Footer -->
+<!-- JavaScript files be linked at the button of page -->
+<script src="js/jquery.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
